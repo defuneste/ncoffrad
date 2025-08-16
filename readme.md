@@ -1,6 +1,10 @@
 # Week end offroading in North Carolina
 
 
+## Dependencies
+
+- quarto (`quarto render` to doc/)
+
 
 ## Sources: 
 

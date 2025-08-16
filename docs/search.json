@@ -4,7 +4,7 @@
     "href": "readme.html",
     "title": "Week end offroading in North Carolina",
     "section": "",
-    "text": "NC forest service list of trail:\nhttps://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nPisgah / cherokee or UWharrie\nhttps://catalog.data.gov/dataset/national-forest-system-trails-feature-layer-f51e8"
+    "text": "quarto (quarto render to doc/)\n\n\n\n\nNC forest service list of trail:\nhttps://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nPisgah / cherokee or UWharrie\nhttps://catalog.data.gov/dataset/national-forest-system-trails-feature-layer-f51e8"
   },
   {
     "objectID": "readme.html#sources",
@@ -33,5 +33,12 @@
     "title": "ncoffroad",
     "section": "",
     "text": "Source of data\nhttps://catalog.data.gov/dataset/motor-vehicle-use-map-roads-feature-layer-7d219"
+  },
+  {
+    "objectID": "readme.html#dependencies",
+    "href": "readme.html#dependencies",
+    "title": "Week end offroading in North Carolina",
+    "section": "",
+    "text": "quarto (quarto render to doc/)"
   }
 ]
