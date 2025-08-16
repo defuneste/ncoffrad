@@ -4,7 +4,7 @@
     "href": "readme.html",
     "title": "Week end offroading in North Carolina",
     "section": "",
-    "text": "quarto (quarto render to doc/)\n\n\n\n\nNC forest service list of trail:\nhttps://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nPisgah / cherokee or UWharrie\nhttps://catalog.data.gov/dataset/national-forest-system-trails-feature-layer-f51e8"
+    "text": "quarto (quarto render to doc/)\n\n\n\n\nNC forest service list of trail:\nhttps://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nPisgah / cherokee or UWharrie\nhttps://catalog.data.gov/dataset/national-forest-system-trails-feature-layer-f51e8\n\n\n\nBrown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system\n\nNeed a campsite? Primitive dispersed campsites are located along FR 299. If you are interested in more developed campsites, try Mortimer Campground, about nine miles from the Brown Mountain Trailhead."
   },
   {
     "objectID": "readme.html#dependencies",
@@ -23,9 +23,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Check list before the trip!",
     "section": "",
-    "text": "About this site"
+    "text": "Before the trip you will need to:\n\ncheck the weather:\n\nPisgah Forest, NC\nCherokee National Forest, TN\n\nContacts:\n\nContact Name: Grandfather Ranger District\nContact Phone: (828) 652-2144\nOffice: https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district"
   },
   {
     "objectID": "index.html",
@@ -40,5 +40,26 @@
     "title": "ncoffroad",
     "section": "",
     "text": "Source of data\nhttps://catalog.data.gov/dataset/motor-vehicle-use-map-roads-feature-layer-7d219"
+  },
+  {
+    "objectID": "readme.html#document",
+    "href": "readme.html#document",
+    "title": "Week end offroading in North Carolina",
+    "section": "",
+    "text": "Brown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system"
+  },
+  {
+    "objectID": "readme.html#documents",
+    "href": "readme.html#documents",
+    "title": "Week end offroading in North Carolina",
+    "section": "",
+    "text": "Brown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system\n\nNeed a campsite? Primitive dispersed campsites are located along FR 299. If you are interested in more developed campsites, try Mortimer Campground, about nine miles from the Brown Mountain Trailhead."
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "NC Offroad",
+    "section": "",
+    "text": "Quick leaflet:\n\n\n\n\n\n\n35.9067854,-81.7589973"
   }
 ]

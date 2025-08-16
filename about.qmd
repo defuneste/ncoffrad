@@ -1,5 +1,19 @@
 ---
-title: "About"
+title: "Check list before the trip!"
 ---
 
-About this site
+Before the trip you will need to: 
+
+- check the weather:
+    * [Pisgah Forest, NC](https://forecast.weather.gov/MapClick.php?CityName=Pisgah+Forest&state=NC&site=GSP&textField1=35.2756&textField2=-82.6778&e=0)
+    * [Cherokee National Forest, TN](https://forecast.weather.gov/MapClick.php?lon=-83.97241&lat=35.20259)
+
+
+- Contacts: 
+
+    * Contact Name: Grandfather Ranger District
+
+    * Contact Phone: (828) 652-2144
+
+    * Office:  https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district
+ 

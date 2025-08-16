@@ -3,12 +3,15 @@ project:
   output-dir: docs
 
 website:
-  title: "ncoffroad"
+  title: "NC Offroad"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: overview.qmd
+        text: overview_test
       - about.qmd
+
 
 format:
   html:

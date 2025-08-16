@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Check list before the trip! – ncoffroad</title>
+<title>overview – NC Offroad</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,6 +66,16 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-3.6.1/jquery-3.6.1.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.2.2/leaflet.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -79,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">ncoffroad</span>
+    <span class="navbar-title">NC Offroad</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -93,11 +103,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./overview.html"> 
+    <a class="nav-link active" href="./overview.html" aria-current="page"> 
 <span class="menu-text">overview_test</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">Check list before the trip!</span></a>
   </li>  
 </ul>
@@ -115,41 +125,19 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Check list before the trip!</h1>
+
+
+
+<p>Quick leaflet:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-3489ebdbfe001539ca3a" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-3489ebdbfe001539ca3a">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addMarkers","args":[35.9067854,-81.7589973,null,null,null,{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},"around here",null,null,null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[35.9067854,35.9067854],"lng":[-81.7589973,-81.7589973]}},"evals":[],"jsHooks":[]}</script>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>Before the trip you will need to:</p>
-<ul>
-<li><p>check the weather:</p>
-<ul>
-<li><a href="https://forecast.weather.gov/MapClick.php?CityName=Pisgah+Forest&amp;state=NC&amp;site=GSP&amp;textField1=35.2756&amp;textField2=-82.6778&amp;e=0">Pisgah Forest, NC</a></li>
-<li><a href="https://forecast.weather.gov/MapClick.php?lon=-83.97241&amp;lat=35.20259">Cherokee National Forest, TN</a></li>
-</ul></li>
-<li><p>Contacts:</p>
-<ul>
-<li><p>Contact Name: Grandfather Ranger District</p></li>
-<li><p>Contact Phone: (828) 652-2144</p></li>
-<li><p>Office: https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district</p></li>
-</ul></li>
-</ul>
+</div>
+<p>35.9067854,-81.7589973</p>
 
 
 

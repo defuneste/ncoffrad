@@ -1,0 +1,15 @@
+---
+Title: overview
+---
+
+Quick leaflet:
+
+```{r}
+#| echo: false
+library(leaflet)
+leaflet() |>
+  addTiles() |>  
+  addMarkers(lat = 35.9067854, lng=-81.7589973, popup="around here")
+```
+
+35.9067854,-81.7589973
