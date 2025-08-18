@@ -2,64 +2,85 @@
   {
     "objectID": "readme.html",
     "href": "readme.html",
-    "title": "Week end offroading in North Carolina",
+    "title": "A Week-end of off roading in North Carolina",
     "section": "",
-    "text": "quarto (quarto render to doc/)\n\n\n\n\nNC forest service list of trail:\nhttps://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nPisgah / cherokee or UWharrie\nhttps://catalog.data.gov/dataset/national-forest-system-trails-feature-layer-f51e8\n\n\n\nBrown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system\n\nNeed a campsite? Primitive dispersed campsites are located along FR 299. If you are interested in more developed campsites, try Mortimer Campground, about nine miles from the Brown Mountain Trailhead."
+    "text": "After exploring the MVUM dataset the border between North Carolina and Tennessee looked promising. Unfortunately, many trails appeared to be missing. OpenStreetMap was also not really helpful and it was unclear if the key ATv with value yes or permit was consistent.\nIn the end, I decided to focus on Brown Mountain, even though the available data seemed a bit outdated.\nI used R to process the data and documented the workflow in R/import. With QGIS, I georeferenced the missing trails (using the georeferencer tool with UTM zone 17). The processed data was then exported to the`data/ folder.\nFor publishing, I relied on GitHub and used GitHub Pages to serve the content from the doc/ folder.\nWith more time, I’d like to expand this into a scrollytelling project that highlights each type of vehicle.\n\n\n\nquarto (quarto render to doc/)\nR (4.5) with package sf, leaflet and htmltools\n\n\n\n\nNC forest service list of trails: https://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nMVUM: https://catalog.data.gov/dataset/motor-vehicle-use-map-roads-feature-layer-7d219\n\n\n\nBrown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system"
   },
   {
     "objectID": "readme.html#dependencies",
     "href": "readme.html#dependencies",
-    "title": "Week end offroading in North Carolina",
+    "title": "A Week-end of off roading in North Carolina",
     "section": "",
-    "text": "quarto (quarto render to doc/)"
+    "text": "quarto (quarto render to doc/)\nR (4.5) with package sf, leaflet and htmltools"
   },
   {
     "objectID": "readme.html#sources",
     "href": "readme.html#sources",
-    "title": "Week end offroading in North Carolina",
+    "title": "A Week-end of off roading in North Carolina",
     "section": "",
-    "text": "NC forest service list of trail:\nhttps://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nPisgah / cherokee or UWharrie\nhttps://catalog.data.gov/dataset/national-forest-system-trails-feature-layer-f51e8"
+    "text": "NC forest service list of trails: https://www.fs.usda.gov/r08/northcarolina/recreation/opportunities/highway-vehicles-ohv\nMVUM: https://catalog.data.gov/dataset/motor-vehicle-use-map-roads-feature-layer-7d219"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Check list before the trip!",
+    "objectID": "readme.html#documents",
+    "href": "readme.html#documents",
+    "title": "A Week-end of off roading in North Carolina",
     "section": "",
-    "text": "Before the trip you will need to:\n\ncheck the weather:\n\nPisgah Forest, NC\nCherokee National Forest, TN\n\nContacts:\n\nContact Name: Grandfather Ranger District\nContact Phone: (828) 652-2144\nOffice: https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district"
+    "text": "Brown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system"
+  },
+  {
+    "objectID": "data_raw/readme.html",
+    "href": "data_raw/readme.html",
+    "title": "NC Offroad",
+    "section": "",
+    "text": "Source of data\nhttps://catalog.data.gov/dataset/motor-vehicle-use-map-roads-feature-layer-7d219"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "NC offroad!",
     "section": "",
-    "text": "This is a Quarto website."
+    "text": "Are you ready to discover the Pisgah forest, home of the first US forestry school and jewel of western north carolina?\nYou will visit the Brown mountain OHV Trail System!\nFirst, lets check if you are ready then head into the trail system."
   },
   {
-    "objectID": "data_raw/readme.html",
-    "href": "data_raw/readme.html",
-    "title": "ncoffroad",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "📋 Check list before your trip!",
     "section": "",
-    "text": "Source of data\nhttps://catalog.data.gov/dataset/motor-vehicle-use-map-roads-feature-layer-7d219"
-  },
-  {
-    "objectID": "readme.html#document",
-    "href": "readme.html#document",
-    "title": "Week end offroading in North Carolina",
-    "section": "",
-    "text": "Brown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system"
-  },
-  {
-    "objectID": "readme.html#documents",
-    "href": "readme.html#documents",
-    "title": "Week end offroading in North Carolina",
-    "section": "",
-    "text": "Brown mountain OHV system: https://www.fs.usda.gov/r08/northcarolina/recreation/brown-mountain-ohv-trail-system\n\nNeed a campsite? Primitive dispersed campsites are located along FR 299. If you are interested in more developed campsites, try Mortimer Campground, about nine miles from the Brown Mountain Trailhead."
+    "text": "Before your trip you will need to:\n\nCheck the calendar 🗓️ The trails are open from April 1st to January 1st\n✅ Check the weather: Pisgah Forest, NC\n✅ Contacts:\n\nContact Name: Grandfather Ranger District\nContact Phone: (828) 652-2144\nOffice website: https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district\n\n⛺ Primitive and dispersed campsites are located after the Fee station on the forest road on Forest Road 299. If you need a campsite with more amenities, please check Mortimer Campground (40 mins driving)\n\n\n\n\n\n\n\nHurricane Helene Trail Status\n\n\n\n\n\nPlease check the status of your trail before traveling: https://www.g5trailcollective.org/helene"
   },
   {
     "objectID": "overview.html",
     "href": "overview.html",
     "title": "NC Offroad",
     "section": "",
-    "text": "Quick leaflet:\n\n\n\n\n\n\n35.9067854,-81.7589973"
+    "text": "Brown Mountain offers 34 miles of trails for ATV, Trail bikes and Four-wheel drive! The trails cover all the levels of difficulty from easy to very challenging!"
+  },
+  {
+    "objectID": "overview.html#trails-overview",
+    "href": "overview.html#trails-overview",
+    "title": "NC Offroad",
+    "section": "Trails Overview:",
+    "text": "Trails Overview:"
+  },
+  {
+    "objectID": "overview.html#check-the-difficulty-and-if-your-vehicle-is-authorized",
+    "href": "overview.html#check-the-difficulty-and-if-your-vehicle-is-authorized",
+    "title": "NC Offroad",
+    "section": "Check the difficulty and if your vehicle is authorized",
+    "text": "Check the difficulty and if your vehicle is authorized\nTrail bikers are free to use all the trails but there are more restrictions on drivers of ATV and Four-wheel drive vehicles (4WD).\nGreen represents the easiest trails, yellow tends to provide more challenges and black are the hardest ones.\nEnjoy!"
+  },
+  {
+    "objectID": "overview.html#additional-resources",
+    "href": "overview.html#additional-resources",
+    "title": "NC Offroad",
+    "section": "Additional resources:",
+    "text": "Additional resources:\n\nDoe Mountain, Tennessee for additional nearby offroad adventures\nSite of the first school of forestry in the US: https://www.fs.usda.gov/r08/northcarolina/recreation/cradle-forestry\nA local brewery: https://fontaflora.com/location/whippoorwill-farm/"
+  },
+  {
+    "objectID": "overview.html#leave-no-trace",
+    "href": "overview.html#leave-no-trace",
+    "title": "NC Offroad",
+    "section": "Leave No Trace!",
+    "text": "Leave No Trace!\nRemember to pack out what you pack in!"
   }
 ]

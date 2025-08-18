@@ -8,9 +8,9 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - about.qmd  
       - href: overview.qmd
-        text: overview_test
-      - about.qmd
+        text: "Brown Mountain OHV Trail system"
 
 
 format:

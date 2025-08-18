@@ -1,19 +1,30 @@
 ---
-title: "Check list before the trip!"
+title: "📋 Check list before your trip!"
 ---
 
-Before the trip you will need to: 
-
-- check the weather:
-    * [Pisgah Forest, NC](https://forecast.weather.gov/MapClick.php?CityName=Pisgah+Forest&state=NC&site=GSP&textField1=35.2756&textField2=-82.6778&e=0)
-    * [Cherokee National Forest, TN](https://forecast.weather.gov/MapClick.php?lon=-83.97241&lat=35.20259)
+Before your trip you will need to: 
 
 
-- Contacts: 
+- Check the calendar 🗓️ The trails are open from **April** 1st to **January** 1st 
 
-    * Contact Name: Grandfather Ranger District
+- ✅ Check the weather: [Pisgah Forest, NC](https://forecast.weather.gov/MapClick.php?CityName=Pisgah+Forest&state=NC&site=GSP&textField1=35.2756&textField2=-82.6778&e=0)
 
-    * Contact Phone: (828) 652-2144
 
-    * Office:  https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district
+- ✅ Contacts: 
+
+    * Contact Name: **Grandfather Ranger District**
+
+    * Contact Phone: <a href="+18286522144">(828) 652-2144</a> 
+
+    * Office website:  [https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district](https://www.fs.usda.gov/r08/northcarolina/offices/grandfather-ranger-district)
  
+
+- ⛺ Primitive and dispersed campsites are located after the Fee station on the forest road on **Forest Road 299**. If you need a campsite with more amenities, please check [Mortimer Campground](https://www.recreation.gov/camping/campgrounds/10046915) (40 mins driving)
+
+
+::: {.callout-caution collapse="true"}
+## Hurricane Helene Trail Status 
+
+Please check the status of your trail before traveling:  [https://www.g5trailcollective.org/helene](https://www.g5trailcollective.org/helene)
+:::
+

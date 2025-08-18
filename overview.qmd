@@ -1,15 +1,77 @@
 ---
-Title: overview
+Title: ⛰️ Discover Brown Mountain!
 ---
 
-Quick leaflet:
+Brown Mountain offers 34 miles of trails for ATV, Trail bikes and Four-wheel drive! The trails cover all the levels of difficulty from easy to very challenging! 
+
+## Trails Overview: 
 
 ```{r}
 #| echo: false
+suppressMessages(library("sf"))
 library(leaflet)
-leaflet() |>
-  addTiles() |>  
-  addMarkers(lat = 35.9067854, lng=-81.7589973, popup="around here")
+library(htmltools)  
+b_mt <- sf::st_read("data/brown_mountain.gpkg", layer = 'trail', quiet = TRUE)
+POI <- data.frame(
+  type = c("Parking", "Campsite", "Fee Station"),
+  lat = c(35.8973062,
+          35.8934043,
+          35.8894143),
+  lng =c(-81.7604145,
+         -81.7438603,
+         -81.7394553
+  )
+)
+
+b_mt <- sf::st_transform(b_mt, 4326)
+
 ```
 
-35.9067854,-81.7589973
+
+
+```{r}
+#| echo: false
+
+base <- leaflet() |>
+  addTiles()  |>
+  addMarkers(lng = POI$lng, lat = POI$lat, popup = POI$type)
+
+base |> 
+  addPolylines(data = b_mt)
+
+```
+
+
+## Check the difficulty and if your vehicle is authorized
+
+Trail bikers are free to use all the trails but there are more restrictions on drivers of ATV and Four-wheel drive vehicles (4WD).
+
+Green represents the easiest trails, yellow tends to provide more challenges and black are the hardest ones. 
+
+Enjoy!
+
+
+```{r}
+#| echo: false
+
+factpal <- colorFactor(c("green", "yellow", "black"), b_mt$difficulty)
+ 
+base |> 
+  addPolylines(data = b_mt, color = ~factpal(b_mt$difficulty), popup = ~htmlEscape(vehicule)) 
+
+
+``` 
+
+## Additional resources: 
+
+- [Doe Mountain](https://dmra.gov/), Tennessee for additional nearby offroad adventures
+
+- Site of the first school of forestry in the US:  [https://www.fs.usda.gov/r08/northcarolina/recreation/cradle-forestry](https://www.fs.usda.gov/r08/northcarolina/recreation/cradle-forestry)
+
+
+- A local brewery: [https://fontaflora.com/location/whippoorwill-farm/](https://fontaflora.com/location/whippoorwill-farm/)
+
+## Leave No Trace!
+
+Remember to pack out what you pack in!  
+
